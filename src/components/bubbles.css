@@ -1,0 +1,60 @@
+
+    .boxl {
+      width: 300px auto;
+      margin: 50px auto;
+      border-radius: 15px;
+      background: #bbeaf3;
+      color: #02436f;
+      padding: 20px;
+      text-align: justify;
+      font-weight: 1500;
+      font-family: Comic sans MS;
+      position: absolute;
+      border:2px solid
+      }
+
+    .boxr{
+        width: 300px auto;
+        margin: 50px auto;
+        border-radius: 15px;
+        background: #bbeaf3;
+        color: #02436f;
+        padding: 20px;
+        text-align: justify;
+        font-weight: 1500;
+        font-family: Comic sans MS;
+        position: absolute;
+        border:2px solid
+      }
+    
+    
+    /* speech bubble 13 */
+    
+    .sb13:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 15px solid #bbeaf3;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #bbeaf3;
+    border-bottom: 15px solid transparent;
+    right: -16px;
+    top: 0px;
+    }
+    
+    
+    /* speech bubble 14 */
+    
+    .sb14:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid #bbeaf3;
+    border-top: 15px solid #bbeaf3;
+    border-bottom: 15px solid transparent;
+    left: -16px;
+    top: 0px;
+    }
